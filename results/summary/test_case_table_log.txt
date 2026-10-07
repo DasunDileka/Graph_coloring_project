@@ -1,0 +1,24 @@
+T01 PASS proper=True, r=1, k=3, repair=direct
+T02 PASS repair=chain, r=2, k=3
+T03 PASS repair=new_colour, r=1, k=4
+T04 PASS k=2, eliminated=1, r=2
+T05 PASS colours=0
+T06 PASS colours=1
+T07 PASS applied=False, r=0
+T08 PASS applied=False, r=0
+T09 PASS GraphError raised
+T10 PASS GraphError raised
+T11 PASS ValueError raised
+T12 PASS InputFormatError raised
+T13 PASS invalid=0, max r=1, k=9
+T14 PASS invalid=0, max r=1
+T15 PASS invalid=0, max r=3, bound held=True
+T16 PASS identical=True
+T17 PASS invalid=0, max r=1
+T18 PASS k=2
+T19 PASS 5 operations, as expected=True
+T20 PASS invalid=0, max r=1
+T21 PASS invalid=0, max r=40
+T22 PASS n=450, m=16680, DSATUR k=24, proper=True
+T23 PASS proper=True, max r=3, mean 135 us/update
+T24 PASS colours per update [3, 3, 3, 2, 2, 2], max r=1, planned moves=2; without C4: k=3

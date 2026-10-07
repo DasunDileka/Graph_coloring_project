@@ -1,0 +1,60 @@
+{
+ "experiment": "E2",
+ "instance": "flat300_28_0",
+ "seed": 0,
+ "algorithm": "FF-Repair",
+ "budget": null,
+ "n": 300,
+ "m0": 17356,
+ "initial_colours": 27,
+ "updates": 5000,
+ "mean_colours": 36.0056,
+ "max_colours": 39.0,
+ "final_colours": 39.0,
+ "mean_recoloured": 0.0198,
+ "max_recoloured": 1.0,
+ "total_recoloured": 99.0,
+ "share_updates_recolouring": 0.0198,
+ "conflict_rate": 0.0198,
+ "new_colour_rate": 0.0024,
+ "eliminations": 0,
+ "mean_time_us": 2.3532333999999997,
+ "median_time_us": 1.784,
+ "p95_time_us": 3.696200000000004,
+ "max_time_us": 106.794,
+ "max_recolourings_per_vertex": 3.0,
+ "gini_recolourings": 0.7620538720538719,
+ "wall_s": 0.10425381999993988,
+ "checkpoints": [
+  {
+   "t": 1000,
+   "colours": 33,
+   "edges": 17306,
+   "max_degree": 134
+  },
+  {
+   "t": 2000,
+   "colours": 36,
+   "edges": 17328,
+   "max_degree": 134
+  },
+  {
+   "t": 3000,
+   "colours": 38,
+   "edges": 17306,
+   "max_degree": 134
+  },
+  {
+   "t": 4000,
+   "colours": 39,
+   "edges": 17326,
+   "max_degree": 136
+  },
+  {
+   "t": 5000,
+   "colours": 39,
+   "edges": 17270,
+   "max_degree": 133
+  }
+ ]
+}

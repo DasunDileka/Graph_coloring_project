@@ -1,0 +1,14 @@
+id,weight,criterion,rule,evidence,score,weighted
+C1,3,Valid colouring after every update,1: no invalid colouring in any evaluated update; 0 otherwise,"845 KERB runs (E2, E3, E4, E7) validated after every update by an independent Hamming and properness check; 0 run errors; 0 expected E2/E3 runs missing",1,3
+C2,3,Hard per-update recolouring cap,1: r_t <= R in every evaluated update; 0 otherwise,max r_t <= R in all 845 KERB runs (0 exceed R); harness raises on any r_t > R,1,3
+C3,3,Few colours under the cap,1: mean colours < FF-Repair in >= 80% of E2 runs AND mean over E2 instances within 10% of Tabu-WarmStart; 0.5: only the first part; 0: neither,KERB-R3 below FF-Repair in 97.1% of E2 runs; mean colours over instances 1.063 x Tabu-WarmStart (rule: <= 1.10),1,3
+C4,2,Low disruption,1: mean recolourings per update < Tabu-WarmStart and < DSATUR-Recompute in >= 80% of E2 runs; 0.5: against one of the two; 0: neither,mean recolourings below Tabu-WarmStart in 92.9% and below DSATUR-Recompute in 100.0% of E2 runs,1,2
+C5,2,Fully dynamic (insertions and deletions),1: both handled incrementally and tested; 0.5: one of them; 0: neither,insertion tests T01/T02 PASS; deletion tests T04/T18 PASS; E2 churn mixes both with probability 0.5,1,2
+C6,1,Fast updates,1: median update time <= 1 ms and p95 <= 10 ms over E2 runs (R = 3); 0.5: median <= 10 ms; 0: otherwise,"pooled over 350000 KERB-R3 E2 updates: median 15 us, p95 1069 us",1,1
+C7,2,Scales to large graphs,1: E5 RGG median update time grows < 3x while n grows 1000x and the 10^6 run completes; 0.5: the 10^6 run completes; 0: it does not,median update time x1.24 from n = 10^3 to 10^6; 10^6 run completed,1,2
+C8,1,Reproducible,1: identical results for a fixed seed (unit test) and all scripts/configs published; 0.5: one; 0: neither,"determinism test T16 PASS; scripts, configs and pre-registration in the repository package complete (public URL inserted after upload)",1,1
+C9,1,Feasible for every budget R >= 1,1: R = 1 runs complete with no violation; 0 otherwise,"85 of 85 R = 1 runs completed, max r_t = 1",1,1
+C10,1,Robust to its parameters,1: every pilot configuration within 5% of the best pilot mean colours; 0.5: within 10%; 0: otherwise,8 pilot configurations; worst mean colours 1.26% above the best,1,1
+C11,1,Evidence on real dynamic data,1: evaluated on >= 3 real temporal networks; 0.5: 1-2; 0: none,5 real temporal streams evaluated with every method (E3),1,1
+C12,1,Verified implementation,1: full test suite passes; 0.5: >= 90% of tests pass; 0: otherwise,pytest: 79 of 79 tests passed,1,1
+Total,21,Coverage,,target 95%,1,21

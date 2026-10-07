@@ -1,0 +1,10 @@
+metric,other,runs,kerb_lower,equal,kerb_higher,share_kerb_lower
+mean_colours,FF-Repair,70,68,2,0,0.9714285714
+mean_colours,Tabu-WarmStart,70,1,5,64,0.01428571429
+mean_colours,DSATUR-Recompute,70,45,0,25,0.6428571429
+mean_recoloured,FF-Repair,70,1,1,68,0.01428571429
+mean_recoloured,Tabu-WarmStart,70,65,2,3,0.9285714286
+mean_recoloured,DSATUR-Recompute,70,70,0,0,1
+max_recoloured,FF-Repair,70,0,2,68,0
+max_recoloured,Tabu-WarmStart,70,65,5,0,0.9285714286
+max_recoloured,DSATUR-Recompute,70,70,0,0,1

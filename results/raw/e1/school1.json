@@ -1,0 +1,48 @@
+{
+ "instance": "school1",
+ "sha256": "6e1ed2fe10d04c46cff6dd62506f2deffedce47e310400d37d3d5f7bfc20db2f",
+ "n": 385,
+ "m": 19095,
+ "density": 0.2583198051948052,
+ "min_degree": 1.0,
+ "mean_degree": 99.1948051948052,
+ "max_degree": 282.0,
+ "degree_cv": 0.502733631484066,
+ "degeneracy": 73,
+ "clique_lb": 14,
+ "components": 5,
+ "isolated": 0,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 42,
+   "time_s": 0.0032881379993341397
+  },
+  "Welsh-Powell": {
+   "colours": 32,
+   "time_s": 0.0033977580005739583
+  },
+  "Smallest-last": {
+   "colours": 15,
+   "time_s": 0.006550719001097605
+  },
+  "DSATUR": {
+   "colours": 20,
+   "time_s": 0.023602069999469677
+  },
+  "RLF": {
+   "colours": 28,
+   "time_s": 0.05615488900002674
+  },
+  "Greedy (random order)": {
+   "colours": 42.5,
+   "colours_min": 40,
+   "colours_max": 45,
+   "time_s": 0.0022285426000962618
+  },
+  "TabuCol-minimise": {
+   "colours": 14,
+   "time_s": 28.68551662900063,
+   "iterations": 100000
+  }
+ }
+}

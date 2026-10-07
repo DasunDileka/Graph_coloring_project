@@ -1,0 +1,7 @@
+family,metric,kerb,other,alternative,n_pairs,n_nonzero,a_lower,a_higher,ties,median_diff,mean_diff,statistic,p_value,method,rank_biserial,p_holm,significant
+primary,mean_colours,KERB-R3,FF-Repair,less,14,14,14,0,0,-4.26392,-4.058928571,0,6.103515625e-05,exact,-1,0.000244140625,True
+primary,mean_recoloured,KERB-R3,Tabu-WarmStart,less,14,14,13,1,0,-0.20104,-0.2609571429,1,0.0001220703125,exact,-0.980952381,0.000244140625,True
+primary,mean_recoloured,KERB-R3,DSATUR-Recompute,less,14,14,14,0,0,-18.33664,-21.60695143,0,6.103515625e-05,exact,-1,0.000244140625,True
+primary,mean_colours,KERB-R3,DSATUR-Recompute,less,14,14,9,5,0,-0.2005,-1.350002857,30,0.08630371094,exact,-0.4285714286,0.08630371094,False
+secondary,mean_colours,KERB-R3,Tabu-WarmStart,two-sided,14,13,0,13,1,1.09178,1.025371429,0,0.001473780844,normal approximation (1 zero difference discarded),1,,False
+secondary,max_recoloured,KERB-R3,Tabu-WarmStart,less,14,13,13,0,1,-91.5,-90.85714286,0,0.0007368904219,normal approximation (1 zero difference discarded),-1,,False

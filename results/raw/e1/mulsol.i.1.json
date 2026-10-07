@@ -1,0 +1,48 @@
+{
+ "instance": "mulsol.i.1",
+ "sha256": "dd4d55ff7926e4e207c61bebf9cdb6011cd31eead8761aed9ef64343038ca8dd",
+ "n": 197,
+ "m": 3925,
+ "density": 0.20330467212265618,
+ "min_degree": 0.0,
+ "mean_degree": 39.84771573604061,
+ "max_degree": 121.0,
+ "degree_cv": 0.7778558207517628,
+ "degeneracy": 48,
+ "clique_lb": 49,
+ "components": 60,
+ "isolated": 59,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 49,
+   "time_s": 0.00040563000038673636
+  },
+  "Welsh-Powell": {
+   "colours": 49,
+   "time_s": 0.0005730670000048121
+  },
+  "Smallest-last": {
+   "colours": 49,
+   "time_s": 0.0011615839994192356
+  },
+  "DSATUR": {
+   "colours": 49,
+   "time_s": 0.00360269999873708
+  },
+  "RLF": {
+   "colours": 49,
+   "time_s": 0.006668303998594638
+  },
+  "Greedy (random order)": {
+   "colours": 49.0,
+   "colours_min": 49,
+   "colours_max": 49,
+   "time_s": 0.0004847879998123972
+  },
+  "TabuCol-minimise": {
+   "colours": 49,
+   "time_s": 3.5124487800003408,
+   "iterations": 100000
+  }
+ }
+}

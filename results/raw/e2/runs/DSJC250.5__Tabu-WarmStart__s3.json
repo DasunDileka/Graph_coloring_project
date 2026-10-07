@@ -1,0 +1,61 @@
+{
+ "experiment": "E2",
+ "instance": "DSJC250.5",
+ "seed": 3,
+ "algorithm": "Tabu-WarmStart",
+ "budget": null,
+ "n": 250,
+ "m0": 12534,
+ "initial_colours": 24,
+ "tabu_iterations": 183421,
+ "updates": 5000,
+ "mean_colours": 24.3642,
+ "max_colours": 25.0,
+ "final_colours": 24.0,
+ "mean_recoloured": 0.5918,
+ "max_recoloured": 106.0,
+ "total_recoloured": 2959.0,
+ "share_updates_recolouring": 0.0356,
+ "conflict_rate": 0.0284,
+ "new_colour_rate": 0.0076,
+ "eliminations": 38,
+ "mean_time_us": 2488.5075011999998,
+ "median_time_us": 2.45,
+ "p95_time_us": 30.431100000000043,
+ "max_time_us": 267959.953,
+ "max_recolourings_per_vertex": 23.0,
+ "gini_recolourings": 0.21495505238256163,
+ "wall_s": 12.546434300000328,
+ "checkpoints": [
+  {
+   "t": 1000,
+   "colours": 24,
+   "edges": 12518,
+   "max_degree": 122
+  },
+  {
+   "t": 2000,
+   "colours": 24,
+   "edges": 12458,
+   "max_degree": 121
+  },
+  {
+   "t": 3000,
+   "colours": 24,
+   "edges": 12486,
+   "max_degree": 121
+  },
+  {
+   "t": 4000,
+   "colours": 24,
+   "edges": 12480,
+   "max_degree": 123
+  },
+  {
+   "t": 5000,
+   "colours": 24,
+   "edges": 12450,
+   "max_degree": 121
+  }
+ ]
+}

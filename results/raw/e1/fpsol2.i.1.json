@@ -1,0 +1,48 @@
+{
+ "instance": "fpsol2.i.1",
+ "sha256": "39462d19547086d3795d18a4ce949ef96886900c9f3c6b3c5199eb0c5432b8a2",
+ "n": 496,
+ "m": 11654,
+ "density": 0.09493320299771912,
+ "min_degree": 0.0,
+ "mean_degree": 46.99193548387097,
+ "max_degree": 252.0,
+ "degree_cv": 1.342832346504144,
+ "degeneracy": 64,
+ "clique_lb": 60,
+ "components": 228,
+ "isolated": 227,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 65,
+   "time_s": 0.0015280440002243267
+  },
+  "Welsh-Powell": {
+   "colours": 65,
+   "time_s": 0.0014295949986262713
+  },
+  "Smallest-last": {
+   "colours": 65,
+   "time_s": 0.0033623940016695997
+  },
+  "DSATUR": {
+   "colours": 65,
+   "time_s": 0.012890607000372256
+  },
+  "RLF": {
+   "colours": 65,
+   "time_s": 0.03800513799978944
+  },
+  "Greedy (random order)": {
+   "colours": 65.0,
+   "colours_min": 65,
+   "colours_max": 65,
+   "time_s": 0.0012832229002015083
+  },
+  "TabuCol-minimise": {
+   "colours": 65,
+   "time_s": 5.316921333000209,
+   "iterations": 100000
+  }
+ }
+}

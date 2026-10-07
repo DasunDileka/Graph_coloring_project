@@ -1,0 +1,48 @@
+{
+ "instance": "le450_25c",
+ "sha256": "98bd407ab229a815b39ece98f1f1c268c5946c4f27013a75511dbfd2a3995524",
+ "n": 450,
+ "m": 17343,
+ "density": 0.17167037861915369,
+ "min_degree": 7.0,
+ "mean_degree": 77.08,
+ "max_degree": 179.0,
+ "degree_cv": 0.3784998099612447,
+ "degeneracy": 52,
+ "clique_lb": 25,
+ "components": 1,
+ "isolated": 0,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 37,
+   "time_s": 0.002043508999122423
+  },
+  "Welsh-Powell": {
+   "colours": 29,
+   "time_s": 0.0030604370003857184
+  },
+  "Smallest-last": {
+   "colours": 31,
+   "time_s": 0.005795359000330791
+  },
+  "DSATUR": {
+   "colours": 28,
+   "time_s": 0.02363407799930428
+  },
+  "RLF": {
+   "colours": 28,
+   "time_s": 0.1273942830011947
+  },
+  "Greedy (random order)": {
+   "colours": 35.8,
+   "colours_min": 35,
+   "colours_max": 38,
+   "time_s": 0.0023167436998846823
+  },
+  "TabuCol-minimise": {
+   "colours": 27,
+   "time_s": 10.932599448999099,
+   "iterations": 100000
+  }
+ }
+}

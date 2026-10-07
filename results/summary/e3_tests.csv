@@ -1,0 +1,7 @@
+metric,other,alternative,note,n_pairs,n_nonzero,a_lower,a_higher,ties,median_diff,mean_diff,statistic,p_value,method,rank_biserial
+mean_colours,FF-Repair,less,descriptive only (5 streams),5,5,5,0,0,-5.258363371,-5.369322604,0,0.03125,exact,-1
+mean_recoloured,Tabu-WarmStart,less,descriptive only (5 streams),5,5,5,0,0,-0.07012305746,-0.07688605189,0,0.03125,exact,-1
+mean_recoloured,DSATUR-Recompute,less,descriptive only (5 streams),5,5,5,0,0,-9.366118279,-8.79959349,0,0.03125,exact,-1
+mean_colours,DSATUR-Recompute,less,descriptive only (5 streams),5,5,1,4,0,0.3138187811,0.282616106,14,0.96875,exact,0.8666666667
+mean_colours,Tabu-WarmStart,two-sided,descriptive only (5 streams),5,5,0,5,0,0.4540756503,0.4688253877,0,0.0625,exact,1
+max_recoloured,Tabu-WarmStart,less,descriptive only (5 streams),5,5,5,0,0,-139.6666667,-177.7333333,0,0.03125,exact,-1

@@ -1,0 +1,90 @@
+{
+ "experiment": "E3",
+ "instance": "high-school-2013",
+ "seed": 1,
+ "algorithm": "Tabu-WarmStart",
+ "budget": null,
+ "n": 327,
+ "window_s": 3600,
+ "updates_total": 30318,
+ "updates": 30318,
+ "mean_colours": 5.717527541394551,
+ "max_colours": 8.0,
+ "final_colours": 5.0,
+ "mean_recoloured": 0.2336235899465664,
+ "max_recoloured": 73.0,
+ "total_recoloured": 7083.0,
+ "share_updates_recolouring": 0.1218747938518372,
+ "conflict_rate": 0.12019262484332739,
+ "new_colour_rate": 0.0019460386569034897,
+ "eliminations": 55,
+ "mean_time_us": 382.25437855399434,
+ "median_time_us": 2.49,
+ "p95_time_us": 30.204299999999996,
+ "max_time_us": 71488.57,
+ "max_recolourings_per_vertex": 55.0,
+ "gini_recolourings": 0.27895192909239985,
+ "wall_s": 12.007444857999872,
+ "checkpoints": [
+  {
+   "t": 3031,
+   "colours": 6,
+   "edges": 801,
+   "max_degree": 22
+  },
+  {
+   "t": 6062,
+   "colours": 4,
+   "edges": 248,
+   "max_degree": 7
+  },
+  {
+   "t": 9093,
+   "colours": 7,
+   "edges": 649,
+   "max_degree": 23
+  },
+  {
+   "t": 12124,
+   "colours": 6,
+   "edges": 772,
+   "max_degree": 18
+  },
+  {
+   "t": 15155,
+   "colours": 6,
+   "edges": 631,
+   "max_degree": 15
+  },
+  {
+   "t": 18186,
+   "colours": 5,
+   "edges": 224,
+   "max_degree": 12
+  },
+  {
+   "t": 21217,
+   "colours": 4,
+   "edges": 285,
+   "max_degree": 10
+  },
+  {
+   "t": 24248,
+   "colours": 5,
+   "edges": 408,
+   "max_degree": 15
+  },
+  {
+   "t": 27279,
+   "colours": 5,
+   "edges": 389,
+   "max_degree": 14
+  },
+  {
+   "t": 30310,
+   "colours": 5,
+   "edges": 216,
+   "max_degree": 13
+  }
+ ]
+}

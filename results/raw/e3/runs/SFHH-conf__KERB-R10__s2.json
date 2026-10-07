@@ -1,0 +1,101 @@
+{
+ "experiment": "E3",
+ "instance": "SFHH-conf",
+ "seed": 2,
+ "algorithm": "KERB-R10",
+ "budget": 10,
+ "n": 403,
+ "window_s": 3600,
+ "updates_total": 23027,
+ "kerb_stats": {
+  "plans": 165,
+  "plans_found": 39,
+  "migrations_done": 25,
+  "migrations_abandoned": 14,
+  "plans_stale": 0,
+  "plans_skipped": 0,
+  "planned_moves": 763,
+  "tabu_iterations": 135578,
+  "search_nodes": 1255506
+ },
+ "updates": 23027,
+ "mean_colours": 7.728362357232814,
+ "max_colours": 11.0,
+ "final_colours": 5.0,
+ "mean_recoloured": 0.16458939505797543,
+ "max_recoloured": 10.0,
+ "total_recoloured": 3790.0,
+ "share_updates_recolouring": 0.10465974725322448,
+ "conflict_rate": 0.09823250966257002,
+ "new_colour_rate": 0.0018239458027532896,
+ "eliminations": 38,
+ "mean_time_us": 335.73073531072225,
+ "median_time_us": 6.353,
+ "p95_time_us": 3342.412300000001,
+ "max_time_us": 33841.765,
+ "max_recolourings_per_vertex": 32.0,
+ "gini_recolourings": 0.3333625775025044,
+ "wall_s": 8.115919226000187,
+ "checkpoints": [
+  {
+   "t": 2302,
+   "colours": 11,
+   "edges": 1544,
+   "max_degree": 64
+  },
+  {
+   "t": 4604,
+   "colours": 6,
+   "edges": 532,
+   "max_degree": 25
+  },
+  {
+   "t": 6906,
+   "colours": 8,
+   "edges": 442,
+   "max_degree": 32
+  },
+  {
+   "t": 9208,
+   "colours": 9,
+   "edges": 2082,
+   "max_degree": 61
+  },
+  {
+   "t": 11510,
+   "colours": 7,
+   "edges": 586,
+   "max_degree": 25
+  },
+  {
+   "t": 13812,
+   "colours": 5,
+   "edges": 208,
+   "max_degree": 15
+  },
+  {
+   "t": 16114,
+   "colours": 9,
+   "edges": 2216,
+   "max_degree": 58
+  },
+  {
+   "t": 18416,
+   "colours": 9,
+   "edges": 2284,
+   "max_degree": 57
+  },
+  {
+   "t": 20718,
+   "colours": 6,
+   "edges": 300,
+   "max_degree": 19
+  },
+  {
+   "t": 23020,
+   "colours": 5,
+   "edges": 70,
+   "max_degree": 10
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "experiment": "E3",
+ "instance": "CollegeMsg",
+ "seed": 2,
+ "algorithm": "KERB-R1",
+ "budget": 1,
+ "n": 1899,
+ "window_s": 604800,
+ "updates_total": 32153,
+ "kerb_stats": {
+  "plans": 188,
+  "plans_found": 154,
+  "migrations_done": 37,
+  "migrations_abandoned": 117,
+  "plans_stale": 0,
+  "plans_skipped": 35,
+  "planned_moves": 1169,
+  "tabu_iterations": 46253,
+  "search_nodes": 995
+ },
+ "updates": 32153,
+ "mean_colours": 6.288588934158555,
+ "max_colours": 9.0,
+ "final_colours": 5.0,
+ "mean_recoloured": 0.11541691288526731,
+ "max_recoloured": 1.0,
+ "total_recoloured": 3711.0,
+ "share_updates_recolouring": 0.11541691288526731,
+ "conflict_rate": 0.0788417877025472,
+ "new_colour_rate": 0.0014928622523559232,
+ "eliminations": 44,
+ "mean_time_us": 40.512074612011325,
+ "median_time_us": 9.267,
+ "p95_time_us": 53.61979999999996,
+ "max_time_us": 28396.65,
+ "max_recolourings_per_vertex": 23.0,
+ "gini_recolourings": 0.6538740482197936,
+ "wall_s": 3.4597665880010027,
+ "checkpoints": [
+  {
+   "t": 3215,
+   "colours": 6,
+   "edges": 1943,
+   "max_degree": 94
+  },
+  {
+   "t": 6430,
+   "colours": 7,
+   "edges": 2924,
+   "max_degree": 191
+  },
+  {
+   "t": 9645,
+   "colours": 6,
+   "edges": 2171,
+   "max_degree": 172
+  },
+  {
+   "t": 12860,
+   "colours": 7,
+   "edges": 2252,
+   "max_degree": 113
+  },
+  {
+   "t": 16075,
+   "colours": 7,
+   "edges": 2777,
+   "max_degree": 133
+  },
+  {
+   "t": 19290,
+   "colours": 7,
+   "edges": 2744,
+   "max_degree": 144
+  },
+  {
+   "t": 22505,
+   "colours": 5,
+   "edges": 1479,
+   "max_degree": 74
+  },
+  {
+   "t": 25720,
+   "colours": 5,
+   "edges": 668,
+   "max_degree": 42
+  },
+  {
+   "t": 28935,
+   "colours": 5,
+   "edges": 235,
+   "max_degree": 19
+  },
+  {
+   "t": 32150,
+   "colours": 5,
+   "edges": 84,
+   "max_degree": 24
+  }
+ ]
+}

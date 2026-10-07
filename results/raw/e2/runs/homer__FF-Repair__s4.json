@@ -1,0 +1,60 @@
+{
+ "experiment": "E2",
+ "instance": "homer",
+ "seed": 4,
+ "algorithm": "FF-Repair",
+ "budget": null,
+ "n": 561,
+ "m0": 1302,
+ "initial_colours": 9,
+ "updates": 5000,
+ "mean_colours": 11.519,
+ "max_colours": 12.0,
+ "final_colours": 12.0,
+ "mean_recoloured": 0.0306,
+ "max_recoloured": 1.0,
+ "total_recoloured": 153.0,
+ "share_updates_recolouring": 0.0306,
+ "conflict_rate": 0.0306,
+ "new_colour_rate": 0.0006,
+ "eliminations": 0,
+ "mean_time_us": 2.2488426,
+ "median_time_us": 1.7734999999999999,
+ "p95_time_us": 4.53405,
+ "max_time_us": 59.739,
+ "max_recolourings_per_vertex": 6.0,
+ "gini_recolourings": 0.877215057145853,
+ "wall_s": 0.11226116199941316,
+ "checkpoints": [
+  {
+   "t": 1000,
+   "colours": 11,
+   "edges": 1284,
+   "max_degree": 80
+  },
+  {
+   "t": 2000,
+   "colours": 12,
+   "edges": 1282,
+   "max_degree": 80
+  },
+  {
+   "t": 3000,
+   "colours": 12,
+   "edges": 1286,
+   "max_degree": 80
+  },
+  {
+   "t": 4000,
+   "colours": 12,
+   "edges": 1294,
+   "max_degree": 82
+  },
+  {
+   "t": 5000,
+   "colours": 12,
+   "edges": 1322,
+   "max_degree": 81
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "recorded_at_utc": "2026-10-03T15:10:12Z",
+ "files": {
+  "docs/preregistration.md": "b2c135eff74c46f7125cfc14bde22125b6a0514347be98fd77172bd1fa70f919",
+  "experiments/config.py": "db4e2edc49e555f4e52f4c42464073ed530657a3910d55bf6ecde3cd1b8c69ba",
+  "src/proposed_algorithm.py": "07dfad9ae47ef14a52503c3a708a91720c7b1da604df9432af3e56789aa52e63",
+  "src/baseline_algorithms.py": "6e25ac55963e7e46cb94c9ae3b82d32209fba49381a5c44847d98d54d94411f6",
+  "src/static_coloring.py": "687f984edc13b1a41ac329eb53d2bd752cddcb277f2e71047523504062a56aca",
+  "experiments/run_experiments.py": "fae374e173906203de51eb3e6cfa6fb7fc90fa1de2ed0fa989e5a7e2dbbb61b1",
+  "experiments/benchmark_runner.py": "4897776a8fdb4c0c5f490c83d522b531e8ca71b11c06ed7c4af3ef7deef207af"
+ }
+}

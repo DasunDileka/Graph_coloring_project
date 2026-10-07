@@ -1,0 +1,25 @@
+Test ID,Category,Purpose,Input,Expected Behaviour,Actual Result,Status
+T01,Normal,Conflict repaired by a direct move,"Path 0-1-2 plus vertex 3; colours [0,1,0,2]; insert {0,2}",Proper; exactly 1 vertex recoloured; still 3 colours,"proper=True, r=1, k=3, repair=direct",PASS
+T02,Normal,Ejection chain avoids a new colour,"6 vertices; u, v share colour 0 and each sees colours 1, 2; R=2",Repair by a 2-vertex chain; still 3 colours,"repair=chain, r=2, k=3",PASS
+T03,Boundary,Same conflict with R=1 needs a new colour,As T02 with R=1,New colour; r=1; 4 colours,"repair=new_colour, r=1, k=4",PASS
+T04,Normal,Spare budget removes a small class after a deletion,"Path 0-1-2-3-4 coloured [0,1,2,0,1]; delete {3,4}; R=2",Class {2} eliminated; 2 colours; r<=2,"k=2, eliminated=1, r=2",PASS
+T05,Edge,Graph with no vertices,n=0,Object created; 0 colours; no error,colours=0,PASS
+T06,Edge,Isolated vertices only,"n=5, no edges",1 colour,colours=1,PASS
+T07,Edge,Insert an edge that already exists,"Edge {0,1} present; insert {0,1}",applied=False; nothing recoloured,"applied=False, r=0",PASS
+T08,Edge,Delete an edge that is absent,"No edges; delete {0,1}",applied=False; nothing recoloured,"applied=False, r=0",PASS
+T09,Invalid,Self-loop rejected,"insert {1,1}",GraphError raised; graph unchanged,GraphError raised,PASS
+T10,Invalid,Vertex id out of range,"n=3; insert {0,7}",GraphError raised,GraphError raised,PASS
+T11,Invalid,Budget R=0 rejected,KerbConfig(budget=0),ValueError raised,ValueError raised,PASS
+T12,Invalid,Malformed DIMACS file,edge line before the 'p' line,InputFormatError raised,InputFormatError raised,PASS
+T13,Boundary,Complete graph built edge by edge,"K9, 36 insertions in random order, R=3",Always proper; r<=3; ends with 9 colours,"invalid=0, max r=1, k=9",PASS
+T14,Boundary,R=1 on a dense random graph,"G(60,0.5), 500 churn updates, R=1",Always proper; r<=1 every update,"invalid=0, max r=1",PASS
+T15,Normal,Budget and colour bound under random churn,"G(80,0.2), 1000 updates, R=3","Proper; r<=3; k<=max(k0, maxdeg+1) after every update","invalid=0, max r=3, bound held=True",PASS
+T16,Normal,Deterministic for a fixed seed,Same stream and seed run twice,Identical colourings and colour counts,identical=True,PASS
+T17,Normal,Insert then delete the same edge,"Path 0-1-2; insert/delete {0,2} twice",Every step proper and within budget,"invalid=0, max r=1",PASS
+T18,Normal,Deleting every edge lets classes disappear,Cycle C7 (3 colours); delete all 7 edges,Colour count falls below 3,k=2,PASS
+T19,Edge,Sliding window with equal times and expiry,"Events (0,1,0),(1,2,5),(0,1,8),(2,2,9),(2,3,30); W=10","Self-interaction ignored; {1,2} expires at 15, {0,1} at 18","5 operations, as expected=True",PASS
+T20,Baseline,FF-Repair recolours at most one vertex,"G(60,0.3), 1000 churn updates",Proper; r<=1,"invalid=0, max r=1",PASS
+T21,Baseline,Tabu-WarmStart has no recolouring cap,"G(60,0.5), 500 churn updates",Always proper; r may exceed 3,"invalid=0, max r=40",PASS
+T22,Benchmark,Real benchmark loads and DSATUR colours it,DIMACS le450_15c,"n=450, 16,680 edges; proper colouring","n=450, m=16680, DSATUR k=24, proper=True",PASS
+T23,Large,Large sparse graph runs within budget,"Sparse random graph G(n, p) with n=20000, p=8/n (seed 11), 2000 churn updates, R=3",Proper; r<=3; mean update time recorded,"proper=True, max r=3, mean 135 us/update",PASS
+T24,Normal,Planned migration removes a class over several updates,"10 vertices; class {7,8,9} free to join colour 1; R=1; six updates that change no edge",C4 plans the move; one vertex per update; 3 colours become 2; without C4 still 3,"colours per update [3, 3, 3, 2, 2, 2], max r=1, planned moves=2; without C4: k=3",PASS

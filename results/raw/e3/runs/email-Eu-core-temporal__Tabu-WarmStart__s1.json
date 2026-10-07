@@ -1,0 +1,90 @@
+{
+ "experiment": "E3",
+ "instance": "email-Eu-core-temporal",
+ "seed": 1,
+ "algorithm": "Tabu-WarmStart",
+ "budget": null,
+ "n": 986,
+ "window_s": 604800,
+ "updates_total": 146777,
+ "updates": 146777,
+ "mean_colours": 6.464112224667352,
+ "max_colours": 10.0,
+ "final_colours": 5.0,
+ "mean_recoloured": 0.20362863391403285,
+ "max_recoloured": 208.0,
+ "total_recoloured": 29888.0,
+ "share_updates_recolouring": 0.08779304659449369,
+ "conflict_rate": 0.08684603173521738,
+ "new_colour_rate": 0.0010423976508581044,
+ "eliminations": 149,
+ "mean_time_us": 623.3071659251791,
+ "median_time_us": 2.898,
+ "p95_time_us": 36.59319999999999,
+ "max_time_us": 107343.999,
+ "max_recolourings_per_vertex": 147.0,
+ "gini_recolourings": 0.5756456966047143,
+ "wall_s": 96.87208856799953,
+ "checkpoints": [
+  {
+   "t": 14677,
+   "colours": 6,
+   "edges": 1565,
+   "max_degree": 43
+  },
+  {
+   "t": 29354,
+   "colours": 7,
+   "edges": 1514,
+   "max_degree": 40
+  },
+  {
+   "t": 44031,
+   "colours": 8,
+   "edges": 1593,
+   "max_degree": 37
+  },
+  {
+   "t": 58708,
+   "colours": 7,
+   "edges": 1660,
+   "max_degree": 48
+  },
+  {
+   "t": 73385,
+   "colours": 7,
+   "edges": 1101,
+   "max_degree": 33
+  },
+  {
+   "t": 88062,
+   "colours": 7,
+   "edges": 1686,
+   "max_degree": 44
+  },
+  {
+   "t": 102739,
+   "colours": 6,
+   "edges": 1731,
+   "max_degree": 45
+  },
+  {
+   "t": 117416,
+   "colours": 7,
+   "edges": 2058,
+   "max_degree": 90
+  },
+  {
+   "t": 132093,
+   "colours": 7,
+   "edges": 2293,
+   "max_degree": 99
+  },
+  {
+   "t": 146770,
+   "colours": 5,
+   "edges": 1086,
+   "max_degree": 47
+  }
+ ]
+}

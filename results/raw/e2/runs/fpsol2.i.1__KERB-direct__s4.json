@@ -1,0 +1,70 @@
+{
+ "experiment": "E2",
+ "instance": "fpsol2.i.1",
+ "seed": 4,
+ "algorithm": "KERB-direct",
+ "budget": 3,
+ "n": 496,
+ "m0": 9323,
+ "initial_colours": 24,
+ "kerb_stats": {
+  "plans": 58,
+  "plans_found": 57,
+  "migrations_done": 22,
+  "migrations_abandoned": 33,
+  "plans_stale": 2,
+  "planned_moves": 178,
+  "tabu_iterations": 4090,
+  "search_nodes": 0
+ },
+ "updates": 5000,
+ "mean_colours": 30.7932,
+ "max_colours": 34.0,
+ "final_colours": 30.0,
+ "mean_recoloured": 0.071,
+ "max_recoloured": 3.0,
+ "total_recoloured": 355.0,
+ "share_updates_recolouring": 0.0562,
+ "conflict_rate": 0.0338,
+ "new_colour_rate": 0.0068,
+ "eliminations": 28,
+ "mean_time_us": 88.2527218,
+ "median_time_us": 30.4555,
+ "p95_time_us": 78.47135,
+ "max_time_us": 46413.762,
+ "max_recolourings_per_vertex": 9.0,
+ "gini_recolourings": 0.7913845979100409,
+ "wall_s": 0.5589974060003442,
+ "checkpoints": [
+  {
+   "t": 1000,
+   "colours": 28,
+   "edges": 9333,
+   "max_degree": 209
+  },
+  {
+   "t": 2000,
+   "colours": 31,
+   "edges": 9381,
+   "max_degree": 208
+  },
+  {
+   "t": 3000,
+   "colours": 33,
+   "edges": 9417,
+   "max_degree": 209
+  },
+  {
+   "t": 4000,
+   "colours": 32,
+   "edges": 9439,
+   "max_degree": 211
+  },
+  {
+   "t": 5000,
+   "colours": 30,
+   "edges": 9453,
+   "max_degree": 207
+  }
+ ]
+}

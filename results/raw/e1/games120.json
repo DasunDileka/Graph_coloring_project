@@ -1,0 +1,48 @@
+{
+ "instance": "games120",
+ "sha256": "30bcc1004a11b6cbed6e96727d48e1927e74a36383d966ec04eead8b68cb38f9",
+ "n": 120,
+ "m": 638,
+ "density": 0.08935574229691877,
+ "min_degree": 7.0,
+ "mean_degree": 10.633333333333333,
+ "max_degree": 13.0,
+ "degree_cv": 0.11254748006906734,
+ "degeneracy": 8,
+ "clique_lb": 9,
+ "components": 1,
+ "isolated": 0,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 9,
+   "time_s": 0.00014277999980549794
+  },
+  "Welsh-Powell": {
+   "colours": 9,
+   "time_s": 0.00016436800069641322
+  },
+  "Smallest-last": {
+   "colours": 9,
+   "time_s": 0.00043200800064369105
+  },
+  "DSATUR": {
+   "colours": 9,
+   "time_s": 0.0007140919988160022
+  },
+  "RLF": {
+   "colours": 9,
+   "time_s": 0.003087023000261979
+  },
+  "Greedy (random order)": {
+   "colours": 9.1,
+   "colours_min": 9,
+   "colours_max": 10,
+   "time_s": 0.00015210980054689572
+  },
+  "TabuCol-minimise": {
+   "colours": 9,
+   "time_s": 1.084045817000515,
+   "iterations": 100000
+  }
+ }
+}

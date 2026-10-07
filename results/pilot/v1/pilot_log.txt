@@ -1,0 +1,8 @@
+ search_nodes  plan_iters  mean_colours  mean_recoloured  mean_time_us  p95_time_us  within_1pct  chosen
+          250        1000      8.875167         0.251361    316.709010   899.887636        False   False
+          250        4000      8.860194         0.245889    666.039277   991.819719        False   False
+         1000        1000      8.764667         0.270194    500.351354  2170.494142        False   False
+         1000        4000      8.767917         0.278778    823.543991  1806.457342        False   False
+         4000        1000      8.620667         0.254778    622.973935  4201.849758         True    True
+         4000        4000      8.648861         0.302472   1331.269056  5191.394950         True   False
+chosen: search_nodes=4000, plan_iters=1000

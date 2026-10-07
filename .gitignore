@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+# the two large scalability streams exceed GitHub's 25 MB browser-upload limit;
+# fetch them with: python datasets/fetch_large_streams.py
+datasets/temporal/sx-superuser.txt
+datasets/temporal/digg-friends.txt

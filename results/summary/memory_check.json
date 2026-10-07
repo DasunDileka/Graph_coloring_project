@@ -1,0 +1,30 @@
+{
+ "python": "3.11.15",
+ "updates": 2000,
+ "runs": [
+  {
+   "n": 10000,
+   "m": 31923,
+   "graph_bytes": 6058128,
+   "graph_bytes_per_entry": 94.886570811014,
+   "kerb_bytes_per_vertex_start": 100.702,
+   "kerb_bytes_per_vertex_after_updates": 114.3864,
+   "kerb_peak_bytes_per_vertex_during_updates": 174.2748,
+   "ff_bytes_per_vertex_start": 100.3316,
+   "ff_bytes_per_vertex_after_updates": 113.5088,
+   "ff_peak_bytes_per_vertex_during_updates": 113.6056
+  },
+  {
+   "n": 100000,
+   "m": 319286,
+   "graph_bytes": 61353008,
+   "graph_bytes_per_entry": 96.07845004165544,
+   "kerb_bytes_per_vertex_start": 119.05332,
+   "kerb_bytes_per_vertex_after_updates": 120.08084,
+   "kerb_peak_bytes_per_vertex_during_updates": 144.23936,
+   "ff_bytes_per_vertex_start": 119.01636,
+   "ff_bytes_per_vertex_after_updates": 120.04028,
+   "ff_peak_bytes_per_vertex_during_updates": 120.0592
+  }
+ ]
+}

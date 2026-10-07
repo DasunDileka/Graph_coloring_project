@@ -1,0 +1,51 @@
+{
+ "primary-school": {
+  "n": 242,
+  "interactions": 125773,
+  "span_days": 1.3530092592592593,
+  "updates": 35654,
+  "updates_per_day": 26351.630453378955
+ },
+ "high-school-2013": {
+  "n": 327,
+  "interactions": 188508,
+  "span_days": 4.207870370370371,
+  "updates": 30318,
+  "updates_per_day": 7205.069864671581
+ },
+ "SFHH-conf": {
+  "n": 403,
+  "interactions": 70261,
+  "span_days": 1.3229166666666667,
+  "updates": 23027,
+  "updates_per_day": 17406.23622047244
+ },
+ "CollegeMsg": {
+  "n": 1899,
+  "interactions": 59835,
+  "span_days": 193.7057986111111,
+  "updates": 32153,
+  "updates_per_day": 165.98883580429728
+ },
+ "email-Eu-core-temporal": {
+  "n": 986,
+  "interactions": 332334,
+  "span_days": 803.9265509259259,
+  "updates": 146777,
+  "updates_per_day": 182.57513678450968
+ },
+ "sx-superuser": {
+  "n": 194085,
+  "interactions": 1443339,
+  "span_days": 2773.320925925926,
+  "updates": 1536008,
+  "updates_per_day": 553.85151629618
+ },
+ "digg-friends": {
+  "n": 279374,
+  "interactions": 1729983,
+  "span_days": 1431.6925347222223,
+  "updates": 3167915,
+  "updates_per_day": 2212.7062362692564
+ }
+}

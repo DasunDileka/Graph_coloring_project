@@ -1,0 +1,48 @@
+{
+ "instance": "queen8_8",
+ "sha256": "1579f7e1cf2d5ab7a0bdd1682a4dad3131084dca54c4690547383dbf44731948",
+ "n": 64,
+ "m": 728,
+ "density": 0.3611111111111111,
+ "min_degree": 21.0,
+ "mean_degree": 22.75,
+ "max_degree": 27.0,
+ "degree_cv": 0.08149668667138091,
+ "degeneracy": 21,
+ "clique_lb": 8,
+ "components": 1,
+ "isolated": 0,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 13,
+   "time_s": 0.00010000000111176632
+  },
+  "Welsh-Powell": {
+   "colours": 13,
+   "time_s": 0.00012682399938057642
+  },
+  "Smallest-last": {
+   "colours": 15,
+   "time_s": 0.00029348699899856
+  },
+  "DSATUR": {
+   "colours": 13,
+   "time_s": 0.0007477369999833172
+  },
+  "RLF": {
+   "colours": 10,
+   "time_s": 0.0014200510013324674
+  },
+  "Greedy (random order)": {
+   "colours": 12.4,
+   "colours_min": 11,
+   "colours_max": 14,
+   "time_s": 0.00019968490032624687
+  },
+  "TabuCol-minimise": {
+   "colours": 9,
+   "time_s": 3.508795942998404,
+   "iterations": 100000
+  }
+ }
+}

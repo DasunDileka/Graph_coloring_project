@@ -1,0 +1,48 @@
+{
+ "instance": "homer",
+ "sha256": "38573989c4a1f1b2177f6f45fe86c87e75ea501ab6ef2035ac717e515aa0e22d",
+ "n": 561,
+ "m": 1628,
+ "density": 0.010364145658263305,
+ "min_degree": 0.0,
+ "mean_degree": 5.803921568627451,
+ "max_degree": 99.0,
+ "degree_cv": 1.7571612887101373,
+ "degeneracy": 12,
+ "clique_lb": 13,
+ "components": 12,
+ "isolated": 5,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 15,
+   "time_s": 0.0004144180002185749
+  },
+  "Welsh-Powell": {
+   "colours": 13,
+   "time_s": 0.0008510869993187953
+  },
+  "Smallest-last": {
+   "colours": 13,
+   "time_s": 0.0015325829990615603
+  },
+  "DSATUR": {
+   "colours": 13,
+   "time_s": 0.0018851880013244227
+  },
+  "RLF": {
+   "colours": 13,
+   "time_s": 0.026475114000277244
+  },
+  "Greedy (random order)": {
+   "colours": 13.7,
+   "colours_min": 13,
+   "colours_max": 15,
+   "time_s": 0.0005520438995517907
+  },
+  "TabuCol-minimise": {
+   "colours": 13,
+   "time_s": 1.0704972269995778,
+   "iterations": 100000
+  }
+ }
+}

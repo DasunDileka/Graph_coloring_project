@@ -1,0 +1,48 @@
+{
+ "instance": "miles250",
+ "sha256": "7fea68199802d69dd76930b74bf13cdc4da48d1a0c781c8da06688ad6d639206",
+ "n": 128,
+ "m": 387,
+ "density": 0.04761318897637795,
+ "min_degree": 0.0,
+ "mean_degree": 6.046875,
+ "max_degree": 16.0,
+ "degree_cv": 0.6008571531435724,
+ "degeneracy": 7,
+ "clique_lb": 8,
+ "components": 10,
+ "isolated": 3,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 9,
+   "time_s": 9.577599848853424e-05
+  },
+  "Welsh-Powell": {
+   "colours": 8,
+   "time_s": 0.0001329829992755549
+  },
+  "Smallest-last": {
+   "colours": 8,
+   "time_s": 0.00030852399868308567
+  },
+  "DSATUR": {
+   "colours": 8,
+   "time_s": 0.00042517800102359615
+  },
+  "RLF": {
+   "colours": 8,
+   "time_s": 0.0019223990002501523
+  },
+  "Greedy (random order)": {
+   "colours": 9.3,
+   "colours_min": 8,
+   "colours_max": 10,
+   "time_s": 0.00012467449996620417
+  },
+  "TabuCol-minimise": {
+   "colours": 8,
+   "time_s": 0.9314822210017155,
+   "iterations": 100000
+  }
+ }
+}

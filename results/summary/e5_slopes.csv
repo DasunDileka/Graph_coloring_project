@@ -1,0 +1,3 @@
+algorithm,sizes,slope_median_time,slope_mean_time,slope_rss_graph,median_time_ratio_max_min_n
+FF-Repair,4,0.1570108503,0.2051423289,0.3719584722,2.894564506
+KERB-R3,4,0.0417666547,-0.09597819916,0.369807979,1.238664435

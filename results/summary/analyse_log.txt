@@ -1,0 +1,27 @@
+   id  weight  score                                                                                                                                        evidence
+   C1       3    1.0 845 KERB runs (E2, E3) validated after every update by an independent Hamming and properness check; 0 run errors; 0 expected E2/E3 runs missing
+   C2       3    1.0                                                                   max r_t <= R in all 845 KERB runs (0 exceed R); harness raises on any r_t > R
+   C3       3    1.0                                 KERB-R3 below FF-Repair in 97.1% of E2 runs; mean colours over instances 1.063 x Tabu-WarmStart (rule: <= 1.10)
+   C4       2    1.0                                                 mean recolourings below Tabu-WarmStart in 92.9% and below DSATUR-Recompute in 100.0% of E2 runs
+   C5       2    1.0                                             insertion tests T01/T02 PASS; deletion tests T04/T18 PASS; E2 churn mixes both with probability 0.5
+   C6       1    1.0                                                                                pooled over 350000 KERB-R3 E2 updates: median 15 us, p95 1069 us
+   C7       2    1.0                                                                              median update time x1.24 from n = 10^3 to 10^6; 10^6 run completed
+   C8       1    1.0          determinism test T16 PASS; scripts, configs and pre-registration in the repository package complete (public URL inserted after upload)
+   C9       1    1.0                                                                                                      85 of 85 R = 1 runs completed, max r_t = 1
+  C10       1    1.0                                                                                 8 pilot configurations; worst mean colours 1.26% above the best
+  C11       1    1.0                                                                                        5 real temporal streams evaluated with every method (E3)
+  C12       1    1.0                                                                                                                   pytest: 79 of 79 tests passed
+Total      21    1.0                                                                                                                                      target 95%
+D1 check: max n/min k_t = 80.1 (rule could apply in 0 runs)
+wrote /home/claude/graph_coloring_project/figures/fig_e1_static_quality_time.png
+wrote /home/claude/graph_coloring_project/figures/fig_e2_colours_by_instance.png
+wrote /home/claude/graph_coloring_project/figures/fig_e2_recolouring_by_instance.png
+wrote /home/claude/graph_coloring_project/figures/fig_tradeoff_colours_recolouring.png
+wrote /home/claude/graph_coloring_project/figures/fig_e4_budget_sweep.png
+wrote /home/claude/graph_coloring_project/figures/fig_e7_ablation.png
+wrote /home/claude/graph_coloring_project/figures/fig_e2_update_time_ecdf.png
+wrote /home/claude/graph_coloring_project/figures/fig_trace_DSJC250.5_s0.png
+wrote /home/claude/graph_coloring_project/figures/fig_e2_repair_steps.png
+wrote /home/claude/graph_coloring_project/figures/fig_pilot_configurations.png
+wrote /home/claude/graph_coloring_project/figures/fig_e3_temporal.png
+wrote /home/claude/graph_coloring_project/figures/fig_e5_scalability.png

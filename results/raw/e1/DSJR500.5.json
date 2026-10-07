@@ -1,0 +1,48 @@
+{
+ "instance": "DSJR500.5",
+ "sha256": "f976b7aa48868291b07da4891e59d7d674db7bda26f322f6db20dad03d32797e",
+ "n": 500,
+ "m": 58862,
+ "density": 0.47183967935871746,
+ "min_degree": 103.0,
+ "mean_degree": 235.448,
+ "max_degree": 388.0,
+ "degree_cv": 0.2745219766092921,
+ "degeneracy": 147,
+ "clique_lb": 121,
+ "components": 1,
+ "isolated": 0,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 143,
+   "time_s": 0.007085031000315212
+  },
+  "Welsh-Powell": {
+   "colours": 134,
+   "time_s": 0.0077190840002003824
+  },
+  "Smallest-last": {
+   "colours": 127,
+   "time_s": 0.0199401410009159
+  },
+  "DSATUR": {
+   "colours": 132,
+   "time_s": 0.1064129429996683
+  },
+  "RLF": {
+   "colours": 132,
+   "time_s": 0.4257095409993781
+  },
+  "Greedy (random order)": {
+   "colours": 146.2,
+   "colours_min": 143,
+   "colours_max": 149,
+   "time_s": 0.007747408399882261
+  },
+  "TabuCol-minimise": {
+   "colours": 127,
+   "time_s": 12.739876149000338,
+   "iterations": 100000
+  }
+ }
+}

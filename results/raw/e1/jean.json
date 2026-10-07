@@ -1,0 +1,48 @@
+{
+ "instance": "jean",
+ "sha256": "ad92a264160d87a2a55a9e1f0f41a9f584ca11c3f3ea1f6f1a7630d495e81790",
+ "n": 80,
+ "m": 254,
+ "density": 0.08037974683544304,
+ "min_degree": 0.0,
+ "mean_degree": 6.35,
+ "max_degree": 36.0,
+ "degree_cv": 0.9478627521364017,
+ "degeneracy": 9,
+ "clique_lb": 10,
+ "components": 4,
+ "isolated": 3,
+ "algorithms": {
+  "Greedy (natural order)": {
+   "colours": 10,
+   "time_s": 6.160399971122388e-05
+  },
+  "Welsh-Powell": {
+   "colours": 10,
+   "time_s": 8.261500079242978e-05
+  },
+  "Smallest-last": {
+   "colours": 10,
+   "time_s": 0.00017083600141631905
+  },
+  "DSATUR": {
+   "colours": 10,
+   "time_s": 0.00033467300090705976
+  },
+  "RLF": {
+   "colours": 10,
+   "time_s": 0.00067802500052494
+  },
+  "Greedy (random order)": {
+   "colours": 10.4,
+   "colours_min": 10,
+   "colours_max": 11,
+   "time_s": 8.484699992550304e-05
+  },
+  "TabuCol-minimise": {
+   "colours": 10,
+   "time_s": 0.7530156040011207,
+   "iterations": 100000
+  }
+ }
+}

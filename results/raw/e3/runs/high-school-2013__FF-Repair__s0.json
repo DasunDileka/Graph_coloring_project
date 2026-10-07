@@ -1,0 +1,90 @@
+{
+ "experiment": "E3",
+ "instance": "high-school-2013",
+ "seed": 0,
+ "algorithm": "FF-Repair",
+ "budget": null,
+ "n": 327,
+ "window_s": 3600,
+ "updates_total": 30318,
+ "updates": 30318,
+ "mean_colours": 11.278943202058183,
+ "max_colours": 12.0,
+ "final_colours": 12.0,
+ "mean_recoloured": 0.06807836928557293,
+ "max_recoloured": 1.0,
+ "total_recoloured": 2064.0,
+ "share_updates_recolouring": 0.06807836928557293,
+ "conflict_rate": 0.06807836928557293,
+ "new_colour_rate": 0.0003628207665413286,
+ "eliminations": 0,
+ "mean_time_us": 2.2832263341909096,
+ "median_time_us": 1.696,
+ "p95_time_us": 5.906149999999998,
+ "max_time_us": 143.78,
+ "max_recolourings_per_vertex": 15.0,
+ "gini_recolourings": 0.2802817485716995,
+ "wall_s": 0.4325757339993288,
+ "checkpoints": [
+  {
+   "t": 3031,
+   "colours": 9,
+   "edges": 801,
+   "max_degree": 22
+  },
+  {
+   "t": 6062,
+   "colours": 10,
+   "edges": 248,
+   "max_degree": 7
+  },
+  {
+   "t": 9093,
+   "colours": 12,
+   "edges": 649,
+   "max_degree": 23
+  },
+  {
+   "t": 12124,
+   "colours": 12,
+   "edges": 772,
+   "max_degree": 18
+  },
+  {
+   "t": 15155,
+   "colours": 12,
+   "edges": 631,
+   "max_degree": 15
+  },
+  {
+   "t": 18186,
+   "colours": 12,
+   "edges": 224,
+   "max_degree": 12
+  },
+  {
+   "t": 21217,
+   "colours": 12,
+   "edges": 285,
+   "max_degree": 10
+  },
+  {
+   "t": 24248,
+   "colours": 12,
+   "edges": 408,
+   "max_degree": 15
+  },
+  {
+   "t": 27279,
+   "colours": 12,
+   "edges": 389,
+   "max_degree": 14
+  },
+  {
+   "t": 30310,
+   "colours": 12,
+   "edges": 216,
+   "max_degree": 13
+  }
+ ]
+}
